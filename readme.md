@@ -253,7 +253,7 @@ Este proyecto se encuentra bajo la [licencia GNU General Public License](./licen
 
 ## Autoría
 
-Este es un trabajo de Adrian (Adora) González [[@stariluz]](https://github.com/stariluz) para la materia de **Interacción Humano Computadora** de la *Facultad de Ingeniería de la Universidad Autónoma de Chihuahua*.
+Este es un trabajo de Adrian (Adora) González [[@stariluz](https://github.com/stariluz)] para la materia de **Interacción Humano Computadora** de la *Facultad de Ingeniería de la Universidad Autónoma de Chihuahua*.
 
 El catedrático y asesor de la materia es el mtro. Oscar Beltrán Gómez
-[[@oscarbego]](https://github.com/oscarbego)
+[[@oscarbego](https://github.com/oscarbego)]
