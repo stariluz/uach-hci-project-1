@@ -1,4 +1,4 @@
-# Event Bus para conectar QT5 app y Web Sockets 
+# EventBus para conectar apps de QT5 y Web Sockets 
 
 Este repositorio es una práctica para la interconexión entre
 modulos de Python enfocados en distintas tareas, mediante el uso de un Event Bus central.  
