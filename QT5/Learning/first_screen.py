@@ -15,7 +15,6 @@ class MainWindow(QtWidgets.QMainWindow, first_screen_ui.Ui_MainWindow):
         self.label.setText("Haz clic en el botón")
         self.pushButton.setText("Presióname")
         
-        # Conectamos los eventos con sus acciones
         self.pushButton.clicked.connect(self.update)
 
     def update(self):
@@ -23,15 +22,12 @@ class MainWindow(QtWidgets.QMainWindow, first_screen_ui.Ui_MainWindow):
         EventBus.call("qt5_message", "I'm using qt5")
         EventBus.call("message", "Click en QT5")
 
-    # Alternatively, use a method bound to an instance
     def ws_message(self,message):
         self.label.setText(f"{message}")
 
 @EventBus.on("ws_message")
 def ws_message(message):
     main_window.ws_message(message)
-
-
 
 def init_main_window():
     global main_window

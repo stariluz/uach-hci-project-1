@@ -59,7 +59,6 @@ def qt5_message(message):
     loop = asyncio.new_event_loop()
     threading.Thread(target=run_coroutine, args=(loop, message)).start()
 
-
 def run_coroutine(loop, message):
     asyncio.set_event_loop(loop)
     loop.run_until_complete(manager.broadcast(f"QT5. {message}"))
