@@ -236,7 +236,7 @@ def init_main_window():
 ### Cerrar ventana de QT5 mediante una interrupción de teclado
 Por defecto, la ventana de QT5 no se puede cerrar desde consola con
 el comando `Ctrl+C`. 
-Encontré la solución aquíÑ
+Encontré la solución aquí:
 [#5160577 Ctrl-C doesn't work with PyQt [duplicate]](https://stackoverflow.com/questions/5160577/ctrl-c-doesnt-work-with-pyqt/5160720#5160720)
 
 Todo lo que hay que realizar es agregar esté código en el archivo que
