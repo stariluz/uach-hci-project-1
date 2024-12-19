@@ -1,4 +1,4 @@
-# Event Bus para conectar QT5 app y Web Sockets 
+# EventBus para conectar apps de QT5 y Web Sockets 
 
 Este repositorio es una práctica para la interconexión entre
 modulos de Python enfocados en distintas tareas, mediante el uso de un Event Bus central.  
@@ -236,7 +236,7 @@ def init_main_window():
 ### Cerrar ventana de QT5 mediante una interrupción de teclado
 Por defecto, la ventana de QT5 no se puede cerrar desde consola con
 el comando `Ctrl+C`. 
-Encontré la solución aquíÑ
+Encontré la solución aquí:
 [#5160577 Ctrl-C doesn't work with PyQt [duplicate]](https://stackoverflow.com/questions/5160577/ctrl-c-doesnt-work-with-pyqt/5160720#5160720)
 
 Todo lo que hay que realizar es agregar esté código en el archivo que
@@ -253,7 +253,7 @@ Este proyecto se encuentra bajo la [licencia GNU General Public License](./licen
 
 ## Autoría
 
-Este es un trabajo de Adrian (Adora) González [[@stariluz]](https://github.com/stariluz) para la materia de **Interacción Humano Computadora** de la *Facultad de Ingeniería de la Universidad Autónoma de Chihuahua*.
+Este es un trabajo de Adrian (Adora) González [[@stariluz](https://github.com/stariluz)] para la materia de **Interacción Humano Computadora** de la *Facultad de Ingeniería de la Universidad Autónoma de Chihuahua*.
 
 El catedrático y asesor de la materia es el mtro. Oscar Beltrán Gómez
-[[@oscarbego]](https://github.com/oscarbego)
+[[@oscarbego](https://github.com/oscarbego)]
